@@ -24,7 +24,7 @@
 
     &__features{
         position: relative;
-        &::after{
+        &::before{
             content:'';
             height:100%;
             width: 15px;
@@ -45,7 +45,6 @@
         padding:$s-large 1.5rem 2rem 1.5rem;
         margin-top:$s-large;
         position: relative;
-        z-index: 1;
 
         &-img{
             background-color: $dark-violet;
@@ -79,7 +78,7 @@
             display: flex;
             margin-top:$s-large;
 
-            &::after{
+            &::before{
                 width: 90%;
                 height: 15px;
                 bottom:0;

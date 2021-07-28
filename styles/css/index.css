@@ -557,7 +557,7 @@ section, footer {
   position: relative;
 }
 
-.stats__features::after {
+.stats__features::before {
   content: '';
   height: 100%;
   width: 15px;
@@ -577,7 +577,6 @@ section, footer {
   padding: 5rem 1.5rem 2rem 1.5rem;
   margin-top: 5rem;
   position: relative;
-  z-index: 1;
 }
 
 .stats__feature-img {
@@ -614,7 +613,7 @@ section, footer {
     display: flex;
     margin-top: 5rem;
   }
-  .stats__features::after {
+  .stats__features::before {
     width: 90%;
     height: 15px;
     bottom: 0;
@@ -641,7 +640,6 @@ section, footer {
   background-image: url("../../../assets/images/bg-boost-mobile.svg");
   color: white;
   text-align: center;
-  position: relative;
 }
 
 @media screen and (min-width: 768px) {

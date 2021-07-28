@@ -3,7 +3,6 @@
     background-image:url('../../../assets/images/bg-boost-mobile.svg');
     color:$white;
     text-align: center;
-    position: relative;
 
     @include tablet-query{
         background-image: url('../../../assets/images/bg-boost-desktop.svg');

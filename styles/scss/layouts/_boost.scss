@@ -4,7 +4,6 @@
     color:$white;
     text-align: center;
     position: relative;
-    z-index: -1;
 
     @include tablet-query{
         background-image: url('../../../assets/images/bg-boost-desktop.svg');

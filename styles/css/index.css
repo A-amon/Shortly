@@ -169,6 +169,7 @@ section, footer {
   top: -80px;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .shorten__form-input, .shorten__form-button {
@@ -532,7 +533,6 @@ section, footer {
   background-color: #eff0f5;
   padding-top: 0;
   position: relative;
-  z-index: -1;
 }
 
 .stats__header-title, .stats__feature-title {

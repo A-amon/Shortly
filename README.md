@@ -37,4 +37,4 @@ I found this cool [5-1 Pattern Architecture](https://matthewelsom.com/blog/simpl
 But it will probably take a while before I get used to it. 😂
 
 ## JS
-Another project, comes another chance at improving my functional programming in JS! 😁 It's still very far from being "clean code" tho. 
+Another project, comes another chance at improving my functional programming in JS! 😁

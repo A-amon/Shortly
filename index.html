@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/icons/favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="styles/css/index.css">
+    <title>Shortly</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/images/logo.svg" alt="Shortly Logo | Welcome to Shortly">
+            </a>
+            <button class="header-button" aria-label="Open the menu" aria-haspopup="true" aria-expanded="false">
+                <img src="assets/icons/icon-hamburger.svg" alt="Hamburger menu" aria-hidden="true">
+            </button>
+            <nav class="header__nav hide">
+                <ul class="header__links">
+                    <li class="header__links-item">
+                        <a href="#">
+                            Features
+                        </a>
+                    </li>
+                    <li class="header__links-item">
+                        <a href="#">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="header__links-item">
+                        <a href="#">
+                            Resources
+                        </a>
+                    </li>
+                    <li class="header__links-item">
+                        <a href="#">
+                            Login
+                        </a>
+                    </li>
+                    <li class="header__links-item">
+                        <a href="#" class="btn--cyan">
+                            Sign Up
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__image">
+                    <img src="assets/images/illustration-working.svg" alt="Working person illustration"
+                        aria-hidden="true">
+                </div>
+                <div class="hero__content">
+                    <h1 class="hero__content-title">More than just shorter links</h1>
+                    <p class="hero__content-desc">
+                        Build your brand's recognition and get detailed insights on how your links are performing.
+                    </p>
+                    <button class="hero__content-cta btn--turquoise">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="stats">
+            <div class="container">
+                <div class="shorten">
+                    <form class="shorten__form" aria-live="polite" novalidate>
+                        <label class="shorten__form-label" for="link">
+                            <span class="sr-only">
+                                Enter link to shorten
+                            </span>
+                            <strong class="shorten__form-error"></strong>
+                        </label>
+                        <input id="link" class="shorten__form-input" type="url" placeholder="Shorten a link here..."
+                            required>
+                        <button class="shorten__form-button btn--cyan">Shorten It!</button>
+                    </form>
+                    <table role="table" class="shorten__links hide" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <th>Link</th>
+                            <th>Shortened Link</th>
+                            <th>Action</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="stats__header">
+                    <h2 class="stats__header-title">Advanced Statistics</h2>
+                    <p class="stats__header-desc">
+                        Track how your links are performing across the web with our advanced statistics dashboard.
+                    </p>
+                </div>
+                <ul class="stats__features" role="list">
+                    <li class="stats__feature">
+                        <img class="stats__feature-img" src="assets/icons/icon-brand-recognition.svg"
+                            alt="Graph illustration" aria-hidden="true">
+                        <h3 class="stats__feature-title">Brand Recognition</h3>
+                        <p class="stats__feature-desc">
+                            Boost your brand recognition with each click.
+                            Generic links don't mean a thing.
+                            Branded links help instil confidence in your content.
+                        </p>
+                    </li>
+                    <li class="stats__feature">
+                        <img class="stats__feature-img" src="assets/icons/icon-detailed-records.svg"
+                            alt="Target illustration" aria-hidden="true">
+                        <h3 class="stats__feature-title">Detailed Records</h3>
+                        <p class="stats__feature-desc">
+                            Gain insights into who is clicking your links.
+                            Knowing when and where people engage with your content helps
+                            inform better decisions.
+                        </p>
+                    </li>
+                    <li class="stats__feature">
+                        <img class="stats__feature-img" src="assets/icons/icon-fully-customizable.svg"
+                            alt="Tools illustration" aria-hidden="true">
+                        <h3 class="stats__feature-title">Fully Customizable</h3>
+                        <p class="stats__feature-desc">
+                            Improve brand awareness and content discoverability through
+                            customizable links, supercharging audience engagement.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="boost">
+            <div class="container">
+                <h2 class="boost-title">
+                    Boost your links today
+                </h2>
+                <button class="boost-cta btn--cyan">
+                    Get Started
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/images/logo.svg" alt="Shortly Logo | Click to return to Homepage">
+            </a>
+            <div class="footer__col">
+                <h2 class="footer__col-title">Features</h2>
+                <ul class="footer__links">
+                    <li class="footer__links-item">
+                        <a href="#">
+                            Link Shortening
+                        </a>
+                    </li>
+                    <li class="footer__links-item">
+                        <a href="#">
+                            Branded Links
+                        </a>
+                    </li>
+                    <li class="footer__links-item">
+                        <a href="#">
+                            Analytics
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h2 class="footer__col-title">Resources</h2>
+                <ul class="footer__links">
+                    <li class="footer__links-item">
+                        <a href="#">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="footer__links-item">
+                        <a href="#">
+                            Developers
+                        </a>
+                    </li>
+                    <li class="footer__links-item">
+                        <a href="#">
+                            Support
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h2 class="footer__col-title">Company</h2>
+                <ul class="footer__links">
+                    <li class="footer__links-item">
+                        <a href="#">
+                            About
+                        </a>
+                    </li>
+                    <li class="footer__links-item">
+                        <a href="#">
+                            Our Team
+                        </a>
+                    </li>
+                    <li class="footer__links-item">
+                        <a href="#">
+                            Careers
+                        </a>
+                    </li>
+                    <li class="footer__links-item">
+                        <a href="#">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="footer__socials">
+                <li class="footer__socials-item">
+                    <a href="#" aria-label="Shortly's Facebook">
+                        <img src="assets/icons/icon-facebook.svg" alt="Facebook logo" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="footer__socials-item">
+                    <a href="#" aria-label="Shortly's Twitter">
+                        <img src="assets/icons/icon-twitter.svg" alt="Twitter logo" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="footer__socials-item">
+                    <a href="#" aria-label="Shortly's Pinterest">
+                        <img src="assets/icons/icon-pinterest.svg" alt="Pinterest logo" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="footer__socials-item">
+                    <a href="#" aria-label="Shortly's Instagram">
+                        <img src="assets/icons/icon-instagram.svg" alt="Instagram logo" aria-hidden="true">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <template id="shorten__link">
+        <tr>
+            <td class="shorten__links-original">
+            </td>
+            <td class="shorten__links-shortened">
+            </td>
+            <td class="shorten__links-button">
+                <button class="btn--cyan">
+                    <span class="init-text">Copy</span>
+                    <span class="copy-text">Copied!</span>
+                </button>
+            </td>
+        </tr>
+    </template>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

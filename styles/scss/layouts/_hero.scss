@@ -1,0 +1,66 @@
+.hero{
+    padding-top:0;
+    padding-bottom:$s-xl;
+
+    .container{
+        overflow-x: hidden;
+    }
+
+    &__image{
+        height: 300px;
+        position: relative;
+
+        img{
+            height: 100%;
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            margin: auto;
+        }
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-title{
+            color:$very-dark-blue;
+            font-size: $fs-xl;
+        }
+    
+        &-desc{
+            color:$grayish-violet;
+            margin-bottom:$s-regular;
+            max-width: 500px;
+            font-weight: $fw-regular;
+        }
+    }
+
+    @include laptop-query{
+        background-image: url('../../../assets/images/illustration-working.svg');
+        background-repeat: no-repeat;
+        background-position: 115% 0;
+
+        .container{
+            height: 450px;
+            display: flex;
+            align-items: center;
+        }
+
+        &__image{
+            display: none;
+        }
+        
+        &__content{
+            width: 70%;
+            align-items: flex-start;
+            &-title{
+                font-size: $fs-xl + 2rem;
+            }
+            &-desc{
+                font-size:$fs-medium;
+            }
+        }
+    }
+}

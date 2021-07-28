@@ -1,0 +1,17 @@
+
+@keyframes spinning{
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes fadeInFromTop {
+    from {
+        transform:translateY(-25px);
+        opacity:0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,107 @@
+.stats{
+    background-color: $athens-gray;
+    padding-top:0;
+    position: relative;
+    z-index: -1;
+
+    &__header-title, &__feature-title{
+        color:$very-dark-blue;
+    }
+
+    &__header-desc, &__feature-desc{
+        color:$grayish-violet;
+        font-size: $fs-small;
+    }
+
+    &__header{
+        &-title{
+            font-size: $fs-large;
+        }
+        &-desc{
+            max-width: 500px;
+            margin: auto;
+        }
+    }
+
+    &__features{
+        position: relative;
+        &::after{
+            content:'';
+            height:100%;
+            width: 15px;
+            background-color: $cyan;
+            display: block;
+            position:absolute;
+            top:0;
+            left:0;
+            right:0;
+            margin:auto;
+        }
+    }
+
+    &__feature{
+        list-style: none;
+        background-color: $white;
+        border-radius: 10px;
+        padding:$s-large 1.5rem 2rem 1.5rem;
+        margin-top:$s-large;
+        position: relative;
+        z-index: 1;
+
+        &-img{
+            background-color: $dark-violet;
+            border-radius: 50%;
+            padding:1.5rem;
+            position: absolute;
+            top:-50px;
+            left:0;
+            right:0;
+            margin:auto;
+        }
+
+        &-title{
+            font-size: $fs-medium;
+        }
+    }
+
+    @include laptop-query{
+        padding-bottom: $s-xl;
+        &__header{
+            text-align: center;
+            &-title{
+                font-size: $fs-xl;
+            }
+            &-desc{
+                font-size: $fs-regular;
+            }
+        }
+
+        &__features{
+            display: flex;
+            margin-top:$s-large;
+
+            &::after{
+                width: 90%;
+                height: 15px;
+                bottom:0;
+            }
+        }
+
+        &__feature{
+            margin:0 $s-small;
+
+            &:nth-child(2){
+                transform: translateY(10%);
+            }
+
+            &:nth-child(3){
+                transform: translateY(20%);
+            }
+
+            &-img{
+                left:1.5rem;
+                right:unset;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+
+/* breakpoints */
+@mixin tablet-query{
+    @media screen and (min-width:768px){
+        @content;
+    }
+}
+
+@mixin laptop-query{
+    @media screen and (min-width:1024px){
+        @content;
+    }
+}

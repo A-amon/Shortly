@@ -1,0 +1,12 @@
+.container{
+    padding:0 1rem;
+    margin: auto;
+    
+    @include tablet-query{
+        max-width: 800px;
+    }
+
+    @include laptop-query{
+        max-width: 1024px;
+    }
+}

@@ -1,0 +1,20 @@
+
+.btn{
+    padding:1rem 3rem;
+    border-radius: 50px;
+    color:$dew;
+    font-weight: $fw-bold;
+    &:hover{
+        filter:brightness(1.2);
+    }
+}
+
+.btn--turquoise{
+    @extend .btn;
+    background-color: $turquoise;
+}
+
+.btn--cyan{
+    @extend .btn;
+    background-color: $cyan;
+}

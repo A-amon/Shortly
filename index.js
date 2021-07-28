@@ -58,8 +58,7 @@ const formHandler = async (event) => {
 
     if (!isEmptySpace(link)) {
         try {
-            // const shortened = await shortenLink(link)
-            const shortened = 'https://test/123'
+            const shortened = await shortenLink(link)
             addShortenedLink(link, shortened)
             addToStorage({
                 original: link,

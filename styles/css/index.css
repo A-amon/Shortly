@@ -498,7 +498,7 @@ section, footer {
 
 @media screen and (min-width: 1024px) {
   .hero {
-    background-image: url("../../../assets/images/illustration-working.svg");
+    background-image: url("../../assets/images/illustration-working.svg");
     background-repeat: no-repeat;
     background-position: 115% 0;
   }

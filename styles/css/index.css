@@ -160,7 +160,7 @@ section, footer {
       -ms-flex-align: center;
           align-items: center;
   background-color: #3b3054;
-  background-image: url("../../../assets/images/bg-shorten-mobile.svg");
+  background-image: url("../../assets/images/bg-shorten-mobile.svg");
   background-repeat: no-repeat;
   background-position: top right;
   padding: 1.5rem;
@@ -212,7 +212,7 @@ section, footer {
   height: 1.5rem;
   width: 1.5rem;
   border-radius: 50%;
-  background-image: url("../../../assets/icons/icon-loading.svg");
+  background-image: url("../../assets/icons/icon-loading.svg");
   margin-left: 0.5rem;
   -webkit-animation: spinning 0.8s infinite linear;
           animation: spinning 0.8s infinite linear;

@@ -14,14 +14,16 @@ Blocks will remain as
 Whereas elements will be named as
 > [block's name]-[element's name]
 
+<br>
+
+Doing this will create a relationship between the element and it's nearest parent block. \
+This allows for a more generic and less unique *element*'s name.
+
 <hr>
 
 I find this to make more sense than my previous way of doing it.\
 E.g. For elements:
 > [section's name]__[element's name]
-
-Doing this will create a relationship between the element and it's nearest parent block. \
-This allows for a more generic and less unique *element*'s name.
 
 ## Accessibility
 
